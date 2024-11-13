@@ -1,0 +1,126 @@
+body {
+	background-image: url(images/background.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	text-align: center;
+}
+
+nav a img {
+	width: 75%;
+	height: auto;
+	vertical-align: middle;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+	opacity: 0.8;
+}
+
+p {
+	color: #faf9f6;
+}
+
+.centerText #introduction {
+	font-family: 'Patrick Hand', Courier, monospace;
+	text-align: center;
+	font-size: 4vw;
+}
+
+.centerText #introductionCaption {
+	font-family: 'Patrick Hand', Courier, monospace;
+	text-align: center;
+	font-size: 3vw;
+}
+
+.title h1 {
+	font-family: 'Patrick Hand', Courier, monospace;
+	text-align: center;
+	font-size: 2.65vw;
+	margin-top: 0;
+	margin-bottom: 1vw;
+}
+
+.meImageText img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 24%;
+	border-radius: 50%;
+}
+
+.meImageText p {
+	font-family: 'Patrick Hand', Courier, monospace;
+	font-size: 2rem;
+	text-align: center;
+	align-self: center;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+.experienceImageText img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 24%;
+	border-radius: 50%;
+}
+
+.experienceImageText p {
+	font-family: 'Patrick Hand', Courier, monospace;
+	font-size: 2rem;
+	text-align: center;
+	align-self: center;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5vw;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 2vw;
+}
+
+a {
+	font-family: 'Patrick Hand', Courier, monospace;
+	font-size: 2rem;
+	color: black;
+}
+
+ul {
+	font-family: 'Patrick Hand', Courier, monospace;
+	font-size: 2rem;
+	color: #faf9f6;
+}
+
+.projects p {
+	font-family: 'Patrick Hand', Courier, monospace;
+	font-size: 2rem;
+	color: #faf9f6;
+}
+
+#socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+#socials a {
+	margin: 2vw; /* Adjust the margin as needed */
+}
+
+#socials img {
+	width: 10vw; /* Adjust the width as needed */
+	height: 10vw; /* Adjust the height as needed */
+}
